@@ -851,6 +851,7 @@ body {
   margin: auto;
   max-width: 1350px;
   width: 100%;
+  margin-bottom: -1.5rem;
 }
 
 .mp-2 iframe {
@@ -861,6 +862,7 @@ body {
 
 /* Footer */
 .footer {
+  margin-top: 1.5rem;
   padding: 2rem;
   background-image: url("/asset_img/bg-pasir.webp");
   background-repeat: no-repeat;
