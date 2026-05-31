@@ -425,13 +425,21 @@ body {
 .jd-sma-ab-1,
 .jd-hp-1,
 .jd-hb-1,
-.jd-bg-1 {
+.jd-bg-1,
+.jd-htd-2 {
   display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 0 1rem;
   gap: 1rem;
+}
+
+.jd-htd-1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
 }
 
 .jd-ab-1 span,
@@ -442,7 +450,8 @@ body {
 .jd-mp-1 span,
 .jd-sma-ab-1 span,
 .jd-hp-1 span,
-.jd-hb-1 span {
+.jd-hb-1 span,
+.jd-htd-2 span {
   font-family: "Lora", serif;
   display: block;
   text-transform: uppercase;
@@ -460,7 +469,8 @@ body {
 .jd-mp-1 h2,
 .jd-sma-ab-1 h2,
 .jd-hp-1 h2,
-.jd-hb-1 h2 {
+.jd-hb-1 h2,
+.jd-htd-2 h2 {
   font-family: "Lora", serif;
   font-size: 2.5rem;
   font-weight: 750;
@@ -489,7 +499,8 @@ body {
 .jd-mp-1 p,
 .jd-sma-ab-1 p,
 .jd-hp-1 p,
-.jd-hb-1 p {
+.jd-hb-1 p,
+.jd-htd-2 p {
   font-family: "Manrope", sans-serif;
   font-size: 1rem;
   font-weight: 450;
@@ -1837,7 +1848,8 @@ body {
   .jd-mp-1 span,
   .jd-sma-ab-1 span,
   .jd-hp-1 span,
-  .jd-hb-1 span {
+  .jd-hb-1 span,
+  .jd-htd-2 span {
     font-size: 0.8rem;
   }
 
@@ -1850,7 +1862,8 @@ body {
   .jd-sma-ab-1 h2,
   .jd-hp-1 h2,
   .jd-hb-1 h2,
-  .jd-bg-1 h1 {
+  .jd-bg-1 h1,
+  .jd-htd-2 h2 {
     font-size: 2.2rem;
   }
 
@@ -1862,7 +1875,8 @@ body {
   .jd-mp-1 p,
   .jd-sma-ab-1 p,
   .jd-hp-1 p,
-  .jd-hb-1 p {
+  .jd-hb-1 p,
+  .jd-htd-2 p {
     font-size: 0.9rem;
   }
   /* End Judul */
@@ -2343,7 +2357,8 @@ body {
   .jd-mp-1 span,
   .jd-sma-ab-1 span,
   .jd-hp-1 span,
-  .jd-hb-1 span {
+  .jd-hb-1 span,
+  .jd-htd-2 span {
     font-size: 0.7rem;
   }
 
@@ -2356,7 +2371,8 @@ body {
   .jd-sma-ab-1 h2,
   .jd-hp-1 h2,
   .jd-hb-1 h2,
-  .jd-bg-1 h1 {
+  .jd-bg-1 h1,
+  .jd-htd-2 h2 {
     font-size: 2rem;
   }
 
@@ -2368,7 +2384,8 @@ body {
   .jd-mp-1 p,
   .jd-sma-ab-1 p,
   .jd-hp-1 p,
-  .jd-hb-1 p {
+  .jd-hb-1 p,
+  .jd-htd-2 p {
     font-size: 0.8rem;
   }
   /* End Judul */
